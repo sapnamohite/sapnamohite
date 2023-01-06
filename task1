@@ -1,0 +1,7 @@
+@Test
+	public void irctc()
+	{
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://irctc.com/contact.html");
+	}
